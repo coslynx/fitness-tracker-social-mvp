@@ -1,0 +1,49 @@
+{
+  "name": "fitness-tracker-social-mvp",
+  "version": "1.0.0",
+  "description": "A social fitness tracker web app for setting goals, tracking progress, and connecting with others.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coslynx/fitness-tracker-social-mvp.git"
+  },
+  "author": "CosLynxAI",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coslynx/fitness-tracker-social-mvp/issues"
+  },
+  "homepage": "https://github.com/coslynx/fitness-tracker-social-mvp#readme",
+  "dependencies": {
+    "@next-auth/prisma-adapter": "^1.0.7",
+    "@sentry/nextjs": "^8.26.0",
+    "@types/node": "^22.5.0",
+    "@types/react": "^18.3.4",
+    "@types/zustand": "^4.5.6",
+    "autoprefixer": "^10.4.20",
+    "next": "^14.2.6",
+    "next-auth": "^4.24.7",
+    "next-auth/providers/google": "^4.24.7",
+    "postcss": "^8.4.41",
+    "prisma": "^5.18.0",
+    "react": "^18.3.1",
+    "tailwindcss": "^3.4.10",
+    "zustand": "^4.5.5"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.2",
+    "@types/react-dom": "^18.3.2",
+    "@typescript-eslint/eslint-plugin": "^6.1.0",
+    "@typescript-eslint/parser": "^6.1.0",
+    "eslint": "^8.50.0",
+    "eslint-config-next": "^14.2.6",
+    "jest": "^29.6.4",
+    "ts-jest": "^29.6.4",
+    "typescript": "^5.2.2"
+  }
+}
