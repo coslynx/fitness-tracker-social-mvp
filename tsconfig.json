@@ -1,0 +1,59 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "jsx": "preserve",
+    "jsxImportSource": "react",
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": ["./components/*"],
+      "@pages/*": ["./pages/*"],
+      "@styles/*": ["./styles/*"],
+      "@utils/*": ["./utils/*"],
+      "@config/*": ["./config/*"],
+      "@middleware/*": ["./middleware/*"]
+    },
+    "types": ["node"],
+    "lib": ["dom", "esnext"],
+    "forceConsistentCasingInFileNames": true,
+    "noEmitOnError": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": [
+    "next.config.js",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "pages/**/*.ts",
+    "pages/**/*.tsx",
+    "app/**/*.ts",
+    "app/**/*.tsx",
+    "styles/**/*.ts",
+    "styles/**/*.tsx",
+    "utils/**/*.ts",
+    "utils/**/*.tsx",
+    "config/**/*.ts",
+    "config/**/*.tsx",
+    "middleware/**/*.ts",
+    "middleware/**/*.tsx",
+    "prisma/**/*.ts",
+    "prisma/**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "cypress",
+    "coverage"
+  ]
+}
